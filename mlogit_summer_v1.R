@@ -1,8 +1,9 @@
 # Database from Ontario
 # Commands in R to calculate the probability of being at home/traveling/away/daytrip
 
-#verification of the new database, using the actual number of days of the month
-#this database will later have data from 3 years
+#this database will later have data from 3 years and uses the actual number of days of the specific month
+#three main purposes: business, visit and leisure.
+#Leisure purpose is the product of merging other and holidays
 
 #-------library-----------------------------
 library("mlogit", lib.loc="C:/Users/AnaTsui/Documents/r/win-library/3.0")
